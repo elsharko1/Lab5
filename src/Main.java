@@ -7,6 +7,7 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
+        int rollNum = 0;
         int sidesDice = 0;
         String choice = "y";
 
@@ -14,6 +15,10 @@ public class Main {
         System.out.println("Welcome to Grand Circus Casino\n\n");
         System.out.println("How many sides are on the dice: ");
         sidesDice = scan.nextInt();
+
+        rollNum = rollNum + 1;
+
+            System.out.println("Roll " + rollNum );
 
         //I am now calling the method by its name(rollDice) to use in the Main method
         //(sidesDice ) is trhe parameters, which is what we want out of our other method
